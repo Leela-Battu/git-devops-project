@@ -1,97 +1,67 @@
-\# Git Version-Controlled DevOps Project
+# Task 4: Git Version Control and GitHub Workflow
 
+This project demonstrates Git and GitHub best practices including branching, commits, pull requests, merge conflict resolution, and version tagging.
 
+---
 
-\## Objective
+## Objective
 
+Manage a DevOps project using Git and GitHub with a proper branching and collaboration workflow.
 
+### Tools Used
 
-Manage a DevOps project using Git and GitHub best practices.
+- Git
+- GitHub
 
-
-
-\## Tools Used
-
-
-
-\- Git
-
-\- GitHub
-
-
-
-\## Git Workflow
-
-
+### Git Workflow
 
 ```text
-
 Feature Branch
-
-&#x20;     ↓
-
-&#x20;   Dev
-
-&#x20;     ↓
-
-Pull Request
-
-&#x20;     ↓
-
-&#x20;   Main
-
+        ↓
+      Dev
+        ↓
+   Pull Request
+        ↓
+      Main
+        ↓
+    v1.0.0 Tag
 ```
 
+### Workflow
 
+The project was managed using the following Git workflow:
 
-\## Git Best Practices Demonstrated
+1. Initialized a Git repository using `git init`.
+2. Created and pushed the `main` branch to GitHub.
+3. Created `dev` and `feature/update-readme` branches.
+4. Made meaningful commits and pushed changes.
+5. Created a Pull Request from the feature branch to `dev`.
+6. Created a Pull Request from `dev` to `main`.
+7. Resolved a merge conflict in `README.md`.
+8. Successfully merged `dev` into `main`.
+9. Added a `.gitignore` file.
+10. Created and pushed the `v1.0.0` Git tag.
 
+### Branches
 
+```text
+main
+dev
+feature/update-readme
+```
 
-\- Git repository initialization
+### Git Tag
 
-\- Branching
+```text
+v1.0.0
+```
 
-\- Feature development
+### Result
 
-\- Pull Requests
+Successfully demonstrated Git version control, branching, Pull Requests, merge conflict resolution, merging, and version tagging using GitHub.
 
-\- Meaningful commits
+---
 
-\- README documentation
+## Conclusion
 
-\- `.gitignore`
-
-\- Git tags
-
-\- GitHub repository management
-
-
-
-\## Branches
-
-
-
-\- `main` - Production-ready code
-
-\- `dev` - Development branch
-
-\- `feature` - Used for new features
-
-
-
-\## Project
-
-
-
-This repository demonstrates basic Git version control and collaboration practices used in DevOps projects.
-
-
-<<<<<<< HEAD
-## Version
-
-Current project version: 1.0.0
-
-## Git Workflow
-
-Feature → Dev → Main
+This task demonstrates how Git and GitHub can be used to manage source code, collaborate using branches and Pull Requests, resolve conflicts, and maintain project versions using Git tags.
