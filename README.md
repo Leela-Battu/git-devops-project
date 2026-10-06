@@ -87,7 +87,11 @@ Pull Request
 This repository demonstrates basic Git version control and collaboration practices used in DevOps projects.
 
 
+<<<<<<< HEAD
 ## Version
 
 Current project version: 1.0.0
 
+## Git Workflow
+
+Feature → Dev → Main
